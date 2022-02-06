@@ -1,0 +1,13 @@
+[
+    {
+        "name": "COUB",
+        "ICON": "COUB.png",
+        "URL": "https://coub.com/"
+    },
+
+    {
+        "name": "MY COUB",
+        "ICON": "MY_COUB.png",
+        "URL": "https://mycoub.ru/"
+    }
+]
