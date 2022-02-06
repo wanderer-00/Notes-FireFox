@@ -21,6 +21,11 @@ const load = async () => {
 };
 
 const displayCharacters = (characters) => {
+    $(function() {
+        var link = "https://www.pandoge.com"; // Ссылка на сайт
+		$("#result").html('<img src="https://www.google.com/s2/favicons?domain='+link+'" alt="favicon">');
+
+	});
     const htmlString = characters.map((character) => {
         return`
         <a href='${character.URL}'>
@@ -36,3 +41,6 @@ const displayCharacters = (characters) => {
 };
 
 load();
+
+// автофавикон
+//https://www.pandoge.com/moduli-i-skripty/kak-poluchit-favicon-sayta-po-ego-url-na-php-jquery
